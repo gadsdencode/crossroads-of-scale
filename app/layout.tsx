@@ -1,5 +1,5 @@
 import './globals.css';
-import type { Metadata } from 'metadata';
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Crossroads of Scale | Governance & Systems Dynamics',
@@ -13,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-[#07090e] text-slate-100 min-h-screen">
+      <body className="bg-[#07090e] text-slate-100 min-h-screen antialiased">
         {children}
       </body>
     </html>

@@ -12,3 +12,9 @@ body {
   color: hsl(210, 40%, 98%);
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
+
+@layer components {
+  .glass-panel {
+    @apply bg-slate-900/80 backdrop-blur border border-slate-800 rounded-2xl shadow-xl;
+  }
+}
